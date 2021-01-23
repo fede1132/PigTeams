@@ -1,0 +1,7 @@
+name: PigTeams
+version: ${project.version}
+main: eu.pigparty.teams.pigteams.PigTeams
+
+commands:
+  team:
+    description: Main command

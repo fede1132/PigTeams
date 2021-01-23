@@ -1,0 +1,64 @@
+Config:
+  team-size: 5
+  team-size-player-limited: 2
+  team-size-vip-limited: 2
+  team-size-limited-perm: "pigparty.vip"
+
+Messages:
+  help:
+    - '&6PigTeams :)'
+    - '/team create - Crea il tuo team'
+    - '/team disband - Distrugge il tuo team'
+    - '/team info - Mostra informazioni sul tuo team'
+    - '/team invite <player> - Invita un player nel tuo team'
+    - '/team join <player> - Entra in un team in cui sei stato invitato'
+    - '/team kick <player> - Espelle un player dal tuo team'
+    - '/team leave - Esce dal tuo team'
+  no-owner: '&cNon sei il proprietario del team!'
+  no-player: '&cPlayer non trovato!'
+  no-team: '&cNon hai un team!'
+  no-team-other: '&cQuesto player non ha piú un team!'
+  no-member: '&cNon siete membri dello stesso team!'
+  no-invite: '&cNon hai nessun invito da quell''utente!'
+  invite: '&aHai ricevuto un invito da &6{player} &aaccettalo con &b/team join {player}'
+  invite-already: '&cQuesto player é giá nel tuo team!'
+  already-invited: '&cHai giá invitato questo player!'
+  invited: '&aHai invitato {player} al tuo team!'
+  reject: 'Hai rifiutato l''invito al team di {player}.'
+  rejected: '{player} ha rifiutato l''invito al team!'
+  self-invite: '&cNon puoi invitare testesso!'
+  join: '&6{player} é entrato nel tuo team!'
+  join-other: '&aSei entrato nel team di &6{player}'
+  join-button:
+    accept:
+      text: '&a&l[Accetta]'
+      hover: '&7&oClicca per accettare!'
+    reject:
+      text: '&c&l[Rifiuta]'
+      hover: '&7&oClicca per rifiutare!'
+  already-team: '&cHai giá un team!'
+  other-already-team: '&cQuesto player é giá in un team!'
+  disband: '&cTeam cancellato!'
+  created: '&aTeam creato con successo!'
+  info:
+    - '&6PigTeams :)'
+    - 'Proprietario team: &b{owner}'
+    - 'Grandezza team: &a{current}&7/{max}'
+    - 'Membri del team: &e{players}'
+  kick: '&6{player} &aé stato espulso dal team!'
+  kick-no-team: '&cQuesto player non é nel tuo team!'
+  kick-other: '&cSei stato espulso dal team di &6{owner}!'
+  leave: '&bSei uscito dal team di &a{player}'
+  leave-alert: '&6{player} &cé uscito dal team!'
+  makeleader: '&aProprietá trasferita a &6{player}'
+  makeleader-other: '&aProprietá ricevuta da &b{player}'
+
+Sound:
+  JOIN:
+    sound: ENTITY_VILLAGER_YES # none to disable
+    pitch: 1.0
+    volume: 1.0
+  LEAVE:
+    sound: ENTITY_VILLAGER_NO # none to disable
+    pitch: 1.0
+    volume: 1.0
